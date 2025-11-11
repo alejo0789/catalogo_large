@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../build/css/flipbook.min.css">
+<script src="../build/js/flipbook.min.js"></script>
+
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+      const options = {
+        pdfUrl: 'pdf/Catalogo_large.pdf'
+      };
+      const container = document.getElementById('container');
+      new FlipBook(container, options);
+    });
+  </script>
+
+</head>
+
+<body>
+  <div id="container"></div>
+</body>
+
+</html>
